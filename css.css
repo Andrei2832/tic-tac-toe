@@ -1,0 +1,44 @@
+body{
+    background-color: #faf8f8;
+}
+.container{
+    width: 330px;
+    margin: 10px auto;
+}
+.menu{
+    box-sizing: border-box;
+    width: 330px;
+    height: 100px;
+}
+.subtitle{
+    font-family: Arial, serif;
+    text-align: center;
+    font-size: 28px;
+}
+.victory{
+    font-size: 30px;
+    color: green;
+}
+.button{
+    background-color: #faf8f8;
+    text-transform: uppercase;
+    margin: 10px;
+    width: 140px;
+    height: 50px;
+    font-family: Arial, serif;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+.field{
+    visibility: hidden;
+}
+#field td {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
