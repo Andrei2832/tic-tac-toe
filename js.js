@@ -1,7 +1,7 @@
-document.querySelector('#together').addEventListener('click',gameTogether);
+document.querySelector('#together').addEventListener('click',startGame);
 document.querySelector('#computer').addEventListener('click',function (){
     computerPlays();
-    gameTogether();
+    startGame();
 });
 
 let vis = 'visible';
@@ -15,7 +15,7 @@ function computerPlays(){
     playComp = !playComp;
 }
 
-function gameTogether() {
+function startGame() {
     visibleHiddenMenu();
     clone = document.querySelector('#field').cloneNode(true);
     victory.textContent = 'Ходит X';
